@@ -25,3 +25,7 @@ end
 group :test do
 	gem 'rspec'
 end
+
+group :production do
+  gem 'pg', '0.12.2'
+end
